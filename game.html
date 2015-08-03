@@ -3,17 +3,22 @@
 var guess, answer, message;
 
 //Generate a random number between 0 and 100
-answer = Math.floor(Math.random()* 100 + 1);
+answer = 223;
 console.log(answer);
 
-guess = prompt('I\'m thinking of a number between 1 and 100... what is it?');
+guess = prompt('How many games do I have on Steam?');
+
+//Generate if correct response
 
 if (guess == answer) {
-  message = "Are you a wizard? You got it right!"
+  message = "Wow! You're right! How did you know? "
 }
+// Generate if not correct response
 else {
-  message = "Oh well, you only had a 1% chance anyway."
+  message = "Sorry, that's not quite right."
 }
+
+// Take if or else from about and create an alert box with message
 
 alert(message);
 
