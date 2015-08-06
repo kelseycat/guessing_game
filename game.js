@@ -11,14 +11,16 @@ var SteamGuessing = function(gameAmount){
           message = 'Wow! You\'re right! How did you know?';
           this.guesses = 0;
         } else if (guess < this.gameAmount) {
-          message = 'Nope, I\'ve got a few more than that! Try guessing more!';
+          message = 'Nope, I\'ve got a few more than that!';
           this.guesses --;
         } else {
-          message = 'I wish I had that many! Try guessing less.';
+          message = 'I wish I had that many!';
           this.guesses --;
         }
         alert(message);
     }
+
+    alert('You fail.')
   }
 };
 
