@@ -8,6 +8,13 @@ Prompting the user to answer a question.
 
 Taking the response and comparing it to the stored answer value.
 
-Creating one of three possible alert messages, one if correct, another if incorrect.
+Creating a list of incorrect guesses.
+
+Creating one of three possible messages with images though the DOM; one if correct, another if incorrect.
+
+
+
+
+
 
 
